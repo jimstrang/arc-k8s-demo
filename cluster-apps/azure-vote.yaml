@@ -65,7 +65,7 @@ spec:
       - name: azure-vote-front
         image: microsoft/azure-vote-front:v1
         ports:
-        - containerPort: 80
+        - containerPort: 443
         resources:
           requests:
             memory: "64Mi"
